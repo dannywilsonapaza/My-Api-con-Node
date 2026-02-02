@@ -2,7 +2,7 @@ const faker = require("faker");
 const boom = require("@hapi/boom");
 
 const getAllProducts = async (req, res) => {
-    const price = allPrice()
+    // const price = allPrice()
   try {
     
     const products = [];
